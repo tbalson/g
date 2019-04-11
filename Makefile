@@ -1,5 +1,5 @@
 all: start
-	@echo Start
+	@echo "Start"
 
 docker-all: docker-build docker-start
 
