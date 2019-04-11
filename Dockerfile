@@ -1,4 +1,4 @@
-FROM: ubuntu:18.10
+FROM: ubuntu:18:10
 
 RUN apt-get update -q && apt-get install -qy \
     build-essential \
