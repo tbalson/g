@@ -15,7 +15,7 @@ RUN apt-get update -q && apt-get install -qy \
 
 RUN git clone https://github.com/tbalson/g.git
 
-WORKDIR cpu_test/
+WORKDIR g/
 
 EXPOSE 8080
 
