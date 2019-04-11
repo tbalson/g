@@ -3,7 +3,7 @@ all: start
 
 docker-all: docker-build docker-start
 
-docker-buiild:
+docker-build:
 	@echo "Building the damn thing"
 	docker build -t tbalson/cpu .
 	@echo "The damn thing is built"
